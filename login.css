@@ -1,0 +1,52 @@
+#homepage{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#form{
+    width: 500px;
+    height: 500px;
+    backdrop-filter: blur(2px);
+    background-color: rgba(243, 235, 235, 0.2);
+    border-radius: 4px;
+    font-weight: bold;
+
+}
+.club-logo img{
+    width: 120px;
+    height: 120px;
+    margin-top: 20px;
+    border-radius: 60px;
+    margin-bottom: 50px;
+}
+form label{
+    margin-top: 30px;
+}
+form input{
+    background-color: rgba(250, 245, 245, 0.884);
+    backdrop-filter: blur(150px);
+    border: none;
+    height: 30px;
+    width: 60%;
+    color: white;
+    font-size: 20px;
+    margin-top: 30px;
+}
+form button{
+    padding: 6px;
+    margin-top: 20px;
+    width: 70px;
+    border-radius: 5px;
+    border: none;
+}
+form button:hover{
+    cursor: pointer;
+}
+form p{
+    margin-top: 10px;
+}
+form a{
+    text-decoration: none;
+    color: white;
+}

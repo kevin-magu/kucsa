@@ -9,9 +9,8 @@
     <title>KUCSA MAIN</title>
 </head>
 <body>
-    <div id="wrapper"></div>
     <div id="navbar">
-        <a href="#">Home</a>
+        <a href="index.php">Home</a>
         <a href="#">Projects</a>
         <a href="#">Membership</a>
         <a href="#">Events</a>
