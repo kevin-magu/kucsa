@@ -13,17 +13,29 @@
 </head>
 <body>
 <div id="homepage">
-    <form id="form" action="" method="post">
+    <form id="reg-form" action="" method="post">
     <div class="club-logo"><img src="images/kucsaLogo.jpg" alt=""></div>
 
-    <label for="name">KUCSA ID</label>
+    <label for="name">Name</label>
     <input type="text" id="name">
     <br>
-    <label for="password">PASSWORD</label>
+    <label for="email">Email</label>
+    <input type="email" id="email">
+    <br>
+    <label for="phone">Phone No</label>
+    <input type="number" id="phone">
+    <br>
+    <label for="yearos">Year Of Study</label>
+    <input type="text" id="yearos">
+    <br>
+    <label for="password">Password</label>
     <input type="password" id="password">
     <br>
-    <button id="submit">Login</button>
-    <p>Don't have an account?</p><a href="register.php" target="_blank">Register here</a>
+    <label for="cpassword">Confirm Password</label>
+    <input type="password" id="cpassword">
+    <br>
+    <button id="register">Register</button>
+    <p>Already have an account?</p><a href="login.php" target="_blank">Login here</a>
 
     </form>
 </div>
